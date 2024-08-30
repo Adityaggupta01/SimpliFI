@@ -1,0 +1,79 @@
+/* Basic styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.logo-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.diamond {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transform: rotate(45deg);
+}
+
+.side {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-color: #333;
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+    background-color: #c36c4a; 
+}
+.ampersand {
+    color: #FF5722; 
+}
+.top-right {
+    top: 0;
+    right: 0;
+    background-color: #a69c99; 
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+    
+    background-color: #1c4f1b; 
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+    
+    background-color: #1f8ac0; 
+}
+
+.logo-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.logo-text h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color: #fff;
+}
+
+.logo-text p {
+    font-size: 12px;
+    margin-top: 4px;
+    color: #ccc;
+}
